@@ -40,7 +40,8 @@ namespace Programa
                 {
                     total = qte * 1.5;
                 }
-                Console.WriteLine("Total: R$ " + total.ToString("F2, CI"));
+
+                Console.WriteLine("Total: R$ " + total.ToString("F2", CI));
             }
         }
     }
